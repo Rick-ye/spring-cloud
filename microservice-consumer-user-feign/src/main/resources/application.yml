@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservice-consumer-user
+    name: microservice-consumer-user-feign
 server:
   port: 7901
 eureka:
