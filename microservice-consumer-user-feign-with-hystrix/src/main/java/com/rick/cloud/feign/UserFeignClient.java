@@ -4,9 +4,17 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+<<<<<<< HEAD
 
 import com.rick.cloud.entity.User;
 import com.rick.cloud.feign.UserFeignClient.HystrixClientFallback;
+=======
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.rick.cloud.entity.User;
 
 @FeignClient(name = "microservice-provider-user", fallback = HystrixClientFallback.class)
 public interface UserFeignClient {
@@ -25,4 +33,3 @@ public interface UserFeignClient {
 	    }
 	}
 }
-
