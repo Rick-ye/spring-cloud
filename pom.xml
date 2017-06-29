@@ -20,6 +20,9 @@
 		<module>microservice-discovery-eureka-ha</module>
 		<module>microservice-consumer-user-ribben-with-hystrix</module>
 		<module>microservice-consumer-user-ribben-with-hystrix-propagation</module>
+		<module>microservice-consumer-user-feign-with-hystrix</module>
+		<module>microservice-consumer-user-feign-customizing-without-hystrix</module>
+		<module>microservice-consumer-user-feign-with-hystrix-factory</module>
 	</modules>
 	
 	<properties>
