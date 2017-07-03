@@ -13,7 +13,7 @@ spring:
     data:
     - classpath:data.sql
   application:
-    name: microservice-provider-user
+    name: microservice-provider-user-v1
 logging:
   level:
     root: info

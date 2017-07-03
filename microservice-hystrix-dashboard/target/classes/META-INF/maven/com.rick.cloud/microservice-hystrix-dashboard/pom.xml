@@ -6,7 +6,7 @@
 		<groupId>com.rick.cloud</groupId>
 		<artifactId>microservice-spring-cloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
   <artifactId>microservice-hystrix-dashboard</artifactId>

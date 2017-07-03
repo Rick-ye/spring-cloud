@@ -29,6 +29,8 @@
 		<module>microservice-consumer-user-ribbon-with-hystrix-context</module>
 		<module>microservice-consumer-user-ribbon-with-hystrix-manageport</module>
 		<module>microservice-hystrix-turbine-manageport</module>
+		<module>microservice-gateway-zuul</module>
+		<module>microservice-gateway-zuul-reg-exp</module>
 	</modules>
 	
 	<properties>
