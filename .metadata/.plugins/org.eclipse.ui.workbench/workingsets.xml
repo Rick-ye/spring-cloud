@@ -2,16 +2,16 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498525407169_1" label="microservice-spring-cloud" name="microservice-spring-cloud">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribben" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-provider-user" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribben-properties-customizing" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribben-without-eureka" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-properties-customizing" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-without-eureka" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign-customizing" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka-ha" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribben-with-hystrix" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribben-with-hystrix-propagation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix-propagation" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498525294312_0" label="Window Working Set" name="Aggregate for window 1498525294312"/>
 </workingSetManager>

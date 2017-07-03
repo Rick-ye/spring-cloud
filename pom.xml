@@ -10,19 +10,25 @@
 
 	<modules>
 		<module>microservice-consumer-user</module>
-		<module>microservice-consumer-user-ribben</module>
+		<module>microservice-consumer-user-ribbon</module>
 		<module>microservice-provider-user</module>
 		<module>microservice-discovery-eureka</module>
-		<module>microservice-consumer-user-ribben-properties-customizing</module>
-		<module>microservice-consumer-user-ribben-without-eureka</module>
+		<module>microservice-consumer-user-ribbon-properties-customizing</module>
+		<module>microservice-consumer-user-ribbon-without-eureka</module>
 		<module>microservice-consumer-user-feign</module>
 		<module>microservice-consumer-user-feign-customizing</module>
 		<module>microservice-discovery-eureka-ha</module>
-		<module>microservice-consumer-user-ribben-with-hystrix</module>
-		<module>microservice-consumer-user-ribben-with-hystrix-propagation</module>
+		<module>microservice-consumer-user-ribbon-with-hystrix</module>
+		<module>microservice-consumer-user-ribbon-with-hystrix-propagation</module>
 		<module>microservice-consumer-user-feign-with-hystrix</module>
 		<module>microservice-consumer-user-feign-customizing-without-hystrix</module>
 		<module>microservice-consumer-user-feign-with-hystrix-factory</module>
+		<module>microservice-hystrix-dashboard</module>
+		<module>microservice-hystrix-turbine</module>
+		<module>microservice-hystrix-turbine-context</module>
+		<module>microservice-consumer-user-ribbon-with-hystrix-context</module>
+		<module>microservice-consumer-user-ribbon-with-hystrix-manageport</module>
+		<module>microservice-hystrix-turbine-manageport</module>
 	</modules>
 	
 	<properties>
