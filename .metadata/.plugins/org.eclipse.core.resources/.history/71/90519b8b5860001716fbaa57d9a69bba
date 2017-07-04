@@ -1,0 +1,35 @@
+server:
+  port: 7900
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema:
+    - classpath:schema.sql
+    data:
+    - classpath:data.sql
+  application:
+    name: microservice-provider-user-v1
+logging:
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtracter: TRACE
+    com.rick.cloud: debug
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password@localhost:8761/eureka  #http://peer1:8761/eureka/,http://peer2:8762/eureka/,http://peer3:8763/eureka/    
+  instance:
+     prefer-ip-address: true
+     instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
+#    metadata-map:
+#      zone: ABC       #eureka可以理解的元数据，会影响客户端的行为
+#      rick: loveyou   #不会影响客户端的行为
+    #appname: HAHAHAHA  #填坑
+    #hostname: user

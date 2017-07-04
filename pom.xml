@@ -31,6 +31,7 @@
 		<module>microservice-hystrix-turbine-manageport</module>
 		<module>microservice-gateway-zuul</module>
 		<module>microservice-gateway-zuul-reg-exp</module>
+		<module>microservice-gateway-zuul-fallback</module>
 	</modules>
 	
 	<properties>

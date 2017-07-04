@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498525407169_1" label="microservice-spring-cloud" name="microservice-spring-cloud">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-provider-user" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix-context" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-gateway-zuul" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign-with-hystrix-factory" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix-propagation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-hystrix-turbine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-hystrix-dashboard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign-with-hystrix" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-hystrix-turbine-manageport" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-properties-customizing" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-without-eureka" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix-manageport" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-gateway-zuul-fallback" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign-customizing" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka-ha" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-feign-customizing-without-hystrix" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user-ribbon-with-hystrix-propagation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka-ha" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-gateway-zuul-reg-exp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-consumer-user" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-hystrix-turbine-context" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/microservice-discovery-eureka" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498525294312_0" label="Window Working Set" name="Aggregate for window 1498525294312"/>
 </workingSetManager>
