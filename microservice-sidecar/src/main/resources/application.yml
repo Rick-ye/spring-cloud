@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: microservice-sidecar
+server:
+  port: 8070
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000  #解决第一次请求报超时异常的解决方案
+#ribbon: 
+#  ConnectTimeout: 3000
+#  ReadTimeout: 60000
+sidecar:
+  port: 8060
+  health-uri: http://localhost:8060/health.json
